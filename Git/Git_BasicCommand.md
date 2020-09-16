@@ -245,7 +245,7 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at d4393df First Commit
 
-ial10@LAPTOP-7DD8I63A MINGW64 ~/basic_git ((d4393df...))	# d4393df 버전으로 돌아감
+*@*** MINGW64 ~/basic_git ((d4393df...))	# d4393df 버전으로 돌아감
 ```
 
 
@@ -253,12 +253,12 @@ ial10@LAPTOP-7DD8I63A MINGW64 ~/basic_git ((d4393df...))	# d4393df 버전으로 
 - `git checkout master` : 최신 버전으로 돌아감
 
 ```shell
-ial10@LAPTOP-7DD8I63A MINGW64 ~/basic_git ((d4393df...))
+*@*** MINGW64 ~/basic_git ((d4393df...))
 $ git checkout master
 Previous HEAD position was d4393df First Commit
 Switched to branch 'master'
 
-ial10@LAPTOP-7DD8I63A MINGW64 ~/basic_git (master)	# 최신 버전(master)으로 돌아감
+*@*** MINGW64 ~/basic_git (master)	# 최신 버전(master)으로 돌아감
 ```
 
 
@@ -276,7 +276,7 @@ ial10@LAPTOP-7DD8I63A MINGW64 ~/basic_git (master)	# 최신 버전(master)으로
   - 암묵적으로 첫번째 저장소의 이름은 `origin`
 
 ```shell
-$ git remote add origin https://github.com/Ryu-dot-line/TIL.git
+$ git remote add origin https://github.com/Journey-R/TIL.git
 ```
 
 
@@ -292,8 +292,8 @@ $ git remote
 origin
 
 $ git remote -v
-origin  https://github.com/Ryu-dot-line/TIL.git (fetch)
-origin  https://github.com/Ryu-dot-line/TIL.git (push)
+origin  https://github.com/Journey-R/TIL.git (fetch)
+origin  https://github.com/Journey-R/TIL.git (push)
 ```
 
 
@@ -358,7 +358,7 @@ $ git rm --cached [파일명]
 ### (1)  원격저장소에서 `처음`으로 프로젝트 복제할 때 : `git clone [원격 저장소의 주소]`
 
 ```shell
-$ git clone https://github.com/Ryu-dot-line/TIL.git
+$ git clone https://github.com/Journey-R/TIL.git
 
 # 완료 메시지
 Cloning into 'TIL'...
@@ -382,7 +382,7 @@ remote: Counting objects: 100% (4/4), done.
 remote: Compressing objects: 100% (1/1), done.
 remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
 Unpacking objects: 100% (3/3), 247 bytes | 35.00 KiB/s, done.
-From https://github.com/Ryu-dot-line/TIL
+From https://github.com/Journey-R/TIL
  * branch            master     -> FETCH_HEAD
    d3ea488..d6c89f4  master     -> origin/master
 Updating d3ea488..d6c89f4
