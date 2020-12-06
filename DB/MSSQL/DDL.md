@@ -1,10 +1,11 @@
-# MSSQL - DDL
+# DDL
 
-## DDL
-
-- Data Definition Language (데이터 정의 언어)
+- Data Definition Language (데이터 정의어)
 - DB의 구조 정의
+  
   - SQL에 의해 정의되는 관계형 DB의 구조는 쌍(레코드/행), 속성(컬럼/열), 관계(테이블), 인덱스 파일 위치 등 DB 고유의 특성을 포함
+  
+  
 - DDL의 종류
 
 | 종류      | 설명                             | 상세                             |
