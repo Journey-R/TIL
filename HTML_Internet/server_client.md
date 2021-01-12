@@ -11,7 +11,7 @@
     - 파일 존재 : 웹페이지 파일(예 : index.html)
   - Internet : web browser와 web server를 연결
 
-![image-20210112153647930](C:\Users\ial10\AppData\Roaming\Typora\typora-user-images\image-20210112153647930.png)
+![image](https://user-images.githubusercontent.com/71396432/104288224-deb6a100-54fa-11eb-8c0d-97861bd273b0.png)
 
 
 
